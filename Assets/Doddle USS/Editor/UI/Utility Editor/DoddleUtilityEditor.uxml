@@ -1,0 +1,20 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/Utility%20Editor/DoddleUtilityEditor.uss?fileID=7433441132597879392&amp;guid=4cfbfc04713dfa742adbab3f1dd27be5&amp;type=3#DoddleUtilityEditor" />
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/DoddleEditor.uss?fileID=7433441132597879392&amp;guid=21b340a3206d0fa44ae6be68eadb096d&amp;type=3#DoddleEditor" />
+    <engine:VisualElement name="config-editor" class="editor">
+        <engine:VisualElement name="header-container" class="mb-12 editor-header">
+            <engine:VisualElement name="header-logo" class="editor-sprite-header" />
+            <engine:Label text="Utilities Editor" name="header-label" class="ml-12 editor-label-header editor-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="container" class="grow w-100">
+            <engine:VisualElement name="row" class="w-100 flex-row mb-12" style="margin-bottom: 36px;">
+                <engine:Button text="Update Utility.uss" name="btn-update-utilities" tooltip="This will update UtilityData with changes from here OVERWRITING UtilityData Scriptable Object" class="btn btn-primary btn-md mb-12" />
+                <engine:Button text="Restore Defaults" name="btn-restore-utilities" tooltip="This will restore Doddle defaults from doddle-utility-backup.json OVERWRITING UtilityData Scriptable Object, doddle-utility.uss, and the UI" class="btn btn-secondary btn-md mb-12" />
+                <engine:Button text="Export JSON" name="btn-export-utilities" tooltip="This will export current changes from here to doddle-utility-export.json" class="btn btn-secondary btn-md mb-12" />
+                <engine:Button text="Import JSON" name="btn-import-utilities" tooltip="This will import config from doddle-utility-import.json OVERWRITING UtilityData Scriptable Object, doddle-utility.uss, and the UI" class="btn btn-secondary btn-md mb-12" />
+                <engine:Button text="Add New Utility" name="btn-create-utility" tooltip="Create a new utility class entry in teh list" class="btn btn-secondary btn-md mb-12" />
+            </engine:VisualElement>
+            <engine:ScrollView name="scroll-view" class="mt-12" style="margin-top: 36px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

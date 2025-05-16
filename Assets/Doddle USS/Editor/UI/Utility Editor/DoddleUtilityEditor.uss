@@ -1,0 +1,88 @@
+/*-----------------------------------------------------------------------
+Foldout
+-------------------------------------------------------------------------*/
+.foldout-editor {
+    padding: 0px;
+}
+
+.foldout-editor > .unity-foldout__toggle > .unity-foldout__input > .unity-foldout__text {
+    font-size: 16px;
+}
+
+.foldout-editor-utility {
+    margin-top: 24px;
+}
+
+.foldout-editor-utility > .unity-foldout__toggle > .unity-foldout__input > .unity-foldout__text {
+    color: var(--colour-primary);
+    -unity-font-style: bold;
+    min-width: 138px;
+}
+
+.foldout-editor-property {
+    margin-top: 12px;
+}
+
+.foldout-editor-property > .unity-foldout__toggle > .unity-foldout__input > .unity-foldout__text {
+    color: var(--colour-primary-hover);
+}
+
+.basefield-editor {
+    padding: 0px;
+}
+
+.basefield-editor > .unity-base-field__label {
+    color: var(--colour-label-primary);
+    font-size: 16px;
+}
+
+
+
+/*-----------------------------------------------------------------------
+Buttons
+-------------------------------------------------------------------------*/
+.btn-config {
+    -unity-background-scale-mode: scale-to-fit;
+    background-size: 80% 80%;
+    border-width: 1px;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-plus {
+    -unity-background-image-tint-color: var(--colour-secondary);
+    background-image: var(--sprite-plus);
+    background-color: var(--colour-bg-primary);
+    border-color: var(--transparent);
+}
+
+.btn-plus:hover:enabled {
+    -unity-background-image-tint-color: var(--colour-secondary);
+    background-color: var(--colour-bg-secondary);
+    border-color: var(--colour-secondary);
+}
+
+.btn-plus:active:enabled {
+    -unity-background-image-tint-color: var(--black);
+    background-color: var(--colour-secondary);
+    border-color: var(--colour-secondary);
+}
+
+.btn-delete {
+    -unity-background-image-tint-color: var(--colour-error);
+    background-image: var(--sprite-delete);
+    background-color: var(--colour-bg-primary);
+    border-color: var(--transparent);
+}
+
+.btn-delete:hover:enabled {
+    -unity-background-image-tint-color: var(--colour-error);
+    background-color: var(--colour-bg-secondary);
+    border-color: var(--colour-error);
+}
+
+.btn-delete:active:enabled {
+    -unity-background-image-tint-color: var(--white);
+    background-color: var(--colour-error);
+    border-color: var(--colour-error);
+}

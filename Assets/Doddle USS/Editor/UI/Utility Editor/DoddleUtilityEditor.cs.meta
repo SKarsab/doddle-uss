@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b7c3d539ac613f54d934978389680e43
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - configEditorUXML: {fileID: 9197481963319205126, guid: 4a05beaf3b9229e43988a4e0c98c0710, type: 3}
+  - utilityUXML: {fileID: 9197481963319205126, guid: 21017ab88d8bfff45a8731f5bf38217a, type: 3}
+  - propertyUXML: {fileID: 9197481963319205126, guid: bdee4bd7bc2a8f745b11069258f4be21, type: 3}
+  - btnPlusUXML: {fileID: 9197481963319205126, guid: 1eab64fd99831fe46a7f8b6dd05c819e, type: 3}
+  - btnDeleteUXML: {fileID: 9197481963319205126, guid: 9607227b58d604644a1d22f76bd73a3c, type: 3}
+  - utilityData: {fileID: 11400000, guid: 63d48b22f78c0184797f7c45c8cbec84, type: 2}
+  - utilitiesUSS: {fileID: 7433441132597879392, guid: 5962a52dac449334197eea96d141a2d1, type: 3}
+  - utilityBackup: {fileID: 4900000, guid: 90a9ac4c3b220bf418c55c38088eb0f9, type: 3}
+  - utilityExport: {fileID: 4900000, guid: bfb980386d9ea4b4d9673bfe97139fcd, type: 3}
+  - utilityImport: {fileID: 4900000, guid: 152fb6674a733fc4cb93b65447a6499f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

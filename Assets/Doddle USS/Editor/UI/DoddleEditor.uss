@@ -1,0 +1,150 @@
+:root {
+    --colour-bg-primary: #1A1A1A;
+    --colour-bg-secondary: #333333;
+
+    --colour-primary: #F5993D;
+    --colour-primary-hover: #FFCC66;
+    --colour-secondary: #FFFFFF;
+    --colour-outline: #1380EC;
+    --colour-error: #B21A1A;
+
+    --colour-label-primary: #FFFFFF;
+    --colour-label-tertiary: #000000;
+
+    --colour-disabled-primary: #E6E6E6;
+    --colour-disabled-secondary: #454545;
+    --transparent: rgba(0, 0, 0, 0);
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --sprite-plus: url("../Sprites/Plus_Sprite.png");
+    --sprite-delete: url("../Sprites/Trashcan_Sprite.png");
+    --sprite-logo: url("../Sprites/Doddle_Logo_Sprite.png");
+}
+
+.editor {
+    padding: 12px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.editor-label {
+    color: var(--colour-label-primary);
+    margin: 0px;
+    padding: 0px;
+}
+
+.editor-label-header {
+    font-size: 48px;
+}
+
+.editor-header {
+    flex-direction: row;
+    align-items: center;
+}
+
+.editor-sprite-header {
+    background-image: var(--sprite-logo);
+    -unity-background-scale-mode: scale-to-fit;
+    width: 48px;
+    height: 48px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+
+
+/*-----------------------------------------------------------------------
+Button Base
+-------------------------------------------------------------------------*/ 
+.btn {
+    border-width: 2px;
+    border-radius: 0px;
+    margin: 4px;
+}
+
+.btn-md {
+    font-size: 20px;
+    width: 188px;
+    height: 48px;
+}
+
+
+
+/*-----------------------------------------------------------------------
+Button Primary
+-------------------------------------------------------------------------*/ 
+.btn-primary {
+    background-color: var(--colour-primary);
+    border-color: var(--colour-primary);
+    color: var(--colour-label-primary);
+}
+
+.btn-primary:hover:enabled {
+    background-color: var(--colour-bg-secondary);
+    border-color: var(--colour-primary);
+    color: var(--colour-primary);
+}
+
+.btn-primary:focus:enabled {
+    background-color: var(--colour-primary);
+    border-color: var(--colour-outline);
+    color: var(--colour-label-primary);
+}
+
+.btn-primary:active:enabled {
+    background-color: var(--colour-bg-primary);
+    border-color: var(--colour-bg-primary);
+    color: var(--colour-label-primary);
+}
+
+
+
+/*-----------------------------------------------------------------------
+Button Secondary
+-------------------------------------------------------------------------*/ 
+.btn-secondary {
+    background-color: var(--colour-bg-primary);
+    border-color: var(--colour-bg-primary);
+    color: var(--colour-label-primary);
+}
+
+.btn-secondary:hover:enabled {
+    background-color: var(--colour-bg-secondary);
+    border-color: var(--colour-secondary);
+    color: var(--colour-label-primary);
+}
+
+.btn-secondary:focus:enabled {
+    background-color: var(--colour-bg-primary);
+    border-color: var(--colour-outline);
+    color: var(--colour-label-primary);
+}
+
+.btn-secondary:active:enabled {
+    background-color: var(--colour-secondary);
+    border-color: var(--colour-secondary);
+    color: var(--colour-label-tertiary);
+}

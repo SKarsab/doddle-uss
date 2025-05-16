@@ -1,0 +1,106 @@
+@import url("UnityDefaultRuntimeTheme.tss");
+
+:root {
+    /*-----------------------------------------------------------------------
+    Font Variables
+    -------------------------------------------------------------------------*/  
+	--font-regular: url("../Art/Fonts/Roboto-Regular SDF.asset");
+	--font-regular-italic: url("../Art/Fonts/Roboto-Italic SDF.asset");
+	--font-black: url("../Art/Fonts/Roboto-Black SDF.asset");
+	--font-black-italic: url("../Art/Fonts/Roboto-BlackItalic SDF.asset");
+	--font-bold: url("../Art/Fonts/Roboto-Bold SDF.asset");
+	--font-bold-italic: url("../Art/Fonts/Roboto-BoldItalic SDF.asset");
+	--font-light: url("../Art/Fonts/Roboto-Light SDF.asset");
+	--font-light-italic: url("../Art/Fonts/Roboto-LightItalic SDF.asset");
+	--font-thin: url("../Art/Fonts/Roboto-Thin SDF.asset");
+	--font-thin-italic: url("../Art/Fonts/Roboto-ThinItalic SDF.asset");
+
+
+
+	/*-----------------------------------------------------------------------
+    Transition Hover Variables
+    -------------------------------------------------------------------------*/
+	--doddle-grow-function: ease-in;
+	--doddle-grow-xy-duration: 0.16s;
+	--doddle-grow-x-duration: 0.16s;
+	--doddle-grow-y-duration: 0.14s;
+	--doddle-grow-xy-scale: 1.05;
+	--doddle-grow-x-scale: 1.05 1;
+	--doddle-grow-y-scale: 1 1.05;
+	
+	--doddle-translate-function: ease-in-sine;
+	--doddle-translate-right-duration: 0.16s;
+	--doddle-translate-left-duration: 0.16s;
+	--doddle-translate-down-duration: 0.16s;
+	--doddle-translate-up-duration: 0.16s;
+	--doddle-translate-right-translate: 28px 0%;
+	--doddle-translate-left-translate: -28px 0%;
+	--doddle-translate-down-translate: 0% 15px;
+	--doddle-translate-up-translate: 0% -15px;
+	
+	--doddle-opacity-function: linear;
+	--doddle-opacity-duration: 0.12s;
+	--doddle-opacity: 0.8;
+	
+	--doddle-colour-function: ease-in-out;
+	--doddle-colour-duration: 0.12s;
+	
+
+
+	/*-----------------------------------------------------------------------
+    Transition Loop Variables
+    -------------------------------------------------------------------------*/
+	--doddle-breathe-function: ease-in-out;
+	--doddle-breathe-scale: 1.2 1.2;
+
+	--doddle-breathe-cw-function: ease-in-out;
+	--doddle-breathe-cw-scale: 1.2 1.2;
+	--doddle-breathe-cw-rotate: 3deg;
+
+	--doddle-breathe-ccw-function: ease-in-out;
+	--doddle-breathe-ccw-scale: 1.2 1.2;
+	--doddle-breathe-ccw-rotate: -3deg;
+
+
+
+	/*-----------------------------------------------------------------------
+    Transition Enter/Exit Variables
+    -------------------------------------------------------------------------*/
+	--doddle-fade-function: ease-out-circ;
+	--doddle-fade-duration: 0.72s;
+	--doddle-fade-opacity: 0;
+
+	--doddle-fade-translate-function: ease-in-out-back;
+	--doddle-fade-translate-duration: 0.46s;
+	--doddle-fade-translate-opacity: 0;
+	--doddle-fade-translate-right: 100px 0px;
+	--doddle-fade-translate-left: -100px 0px;
+	--doddle-fade-translate-down: 0px 100px;
+	--doddle-fade-translate-up: 0px -100px;
+
+	--doddle-fade-translate-big-function: ease-in-out-back;
+	--doddle-fade-translate-big-duration: 1.12s;
+	--doddle-fade-translate-big-opacity: 0;
+	--doddle-fade-translate-big-right: 1000% 0%;
+	--doddle-fade-translate-big-left: -1000% 0%;
+	--doddle-fade-translate-big-down: 0% 1000%;
+	--doddle-fade-translate-big-up: 0% -1000%;
+
+	--doddle-fade-scale-translate-function: ease-out;
+	--doddle-fade-scale-translate-duration: 1.12s;
+	--doddle-fade-scale-translate-opacity: 0;
+	--doddle-fade-scale-translate-scale: 0.3 0.3;
+	--doddle-fade-scale-translate-right: 1000% 0%;
+	--doddle-fade-scale-translate-left: -1000% 0%;
+	--doddle-fade-scale-translate-down: 0% 1000%;
+	--doddle-fade-scale-translate-up: 0% -1000%;
+
+	--doddle-bounce-function: ease-out-bounce;
+	--doddle-bounce-duration: 0.96s;
+	--doddle-bounce-opacity: 0;
+	--doddle-bounce-scale: 0.4 0.4;
+	--doddle-bounce-translate-right: 100% 0%;
+	--doddle-bounce-translate-left: -100% 0%;
+	--doddle-bounce-translate-down: 0% 100%;
+	--doddle-bounce-translate-up: 0% -100%;
+}

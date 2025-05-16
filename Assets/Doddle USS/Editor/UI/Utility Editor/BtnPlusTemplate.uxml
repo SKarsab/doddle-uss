@@ -1,0 +1,5 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/DoddleEditor.uss?fileID=7433441132597879392&amp;guid=21b340a3206d0fa44ae6be68eadb096d&amp;type=3#DoddleEditor" />
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/Utility%20Editor/DoddleUtilityEditor.uss?fileID=7433441132597879392&amp;guid=4cfbfc04713dfa742adbab3f1dd27be5&amp;type=3#DoddleUtilityEditor" />
+    <engine:Button name="btn-plus" tooltip="Add new property" class="btn-config btn-plus" />
+</engine:UXML>

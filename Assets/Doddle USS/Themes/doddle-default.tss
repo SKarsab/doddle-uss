@@ -1,0 +1,19 @@
+@import url("doddle-configuration.tss");
+@import url("doddle-palette.tss");
+
+@import url("/Assets/Doddle USS/Style Sheets/doddle-utility.uss");
+
+
+
+:root {
+    /*-----------------------------------------------------------------------
+    Theme Start (Define your theme below - primary/secondary/accent/states/etc.)
+    - These variables should pull from palette.tss
+    - Your individual uxml template colours should pull from your theme
+
+    Ex.
+    --colour-primary: var(--azure-40); //--azure-40 is #0F66BD
+
+    --colour-btn-primary: var(--colour-primary);  //This sets up your UI so you can change individual uxml element colours, or the entire library at once
+    -------------------------------------------------------------------------*/ 
+}

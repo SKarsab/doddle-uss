@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/Utility%20Editor/DoddleUtilityEditor.uss?fileID=7433441132597879392&amp;guid=4cfbfc04713dfa742adbab3f1dd27be5&amp;type=3#DoddleUtilityEditor" />
+    <Style src="project://database/Assets/Doddle%20USS/Editor/UI/DoddleEditor.uss?fileID=7433441132597879392&amp;guid=21b340a3206d0fa44ae6be68eadb096d&amp;type=3#DoddleEditor" />
+    <engine:Foldout text="Property" class="ml-12 foldout-editor foldout-editor-property">
+        <engine:TextField label="Name" placeholder-text="PLACEHOLDER: margin" name="property-name" tooltip="This is the entire USS property to be places inside the class. NOT the name" class="basefield-editor" />
+        <engine:TextField label="Value" placeholder-text="PLACEHOLDER: 4 (Increment value) or flex-row" name="property-value" tooltip="Value to the property name. Can be 4 for something like margin, of flex-row for direction" class="basefield-editor" />
+        <engine:TextField label="Unit" placeholder-text="PLACEHOLDER: px or %" name="property-unit" tooltip="This will be placed as a string after the value inside the class" class="basefield-editor" />
+    </engine:Foldout>
+</engine:UXML>

@@ -1,0 +1,16 @@
+{
+    "name": "doddle.uss.editor",
+    "rootNamespace": "doddle.uss.editor",
+    "references": [
+        "GUID:daf274a97a5fa114bb812d0c05ac1344"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
