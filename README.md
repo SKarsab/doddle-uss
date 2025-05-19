@@ -12,7 +12,7 @@
 </p>
 
 ## Resources
-- Documentation (Link coming soon)
+- ### [Official Documentation](https://doddleuss.com/)
 - Unity Asset Store Page (Link coming soon)
 - Companion Figma Plugin (Link coming soon)
 
