@@ -31,7 +31,7 @@ Doddle USS isn't just a collection of utility classes, but a full library of ext
 Take advantage of custom controls like box shadows, gradients, toggles, and more that are missing from Unity's UI Toolkit.
 
 ## Community
-- Discord (Link coming soon)
+- ### [Discord](https://discord.gg/2TWfH3Vprh)
 - Trello (Link coming soon)
 
 ## Contributing
